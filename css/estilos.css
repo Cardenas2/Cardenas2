@@ -33,10 +33,23 @@ header {
 }
 .menu__lista-item a {
   text-decoration: none;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  align-items: center;
+  margin: 8px 0;
 }
 .menu__icono {
   width: 24px;
   height: 24px;
   display: inline-block;
   padding-right: 16px;
+}
+
+.mi-cuenta {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  align-items: center;
+}
+.mi-cuenta__hero {
+  margin-right: 16px;
 }
