@@ -1,0 +1,28 @@
+header{
+    width: 300px;
+    background-color:$color-claro;
+    height: 100vh;
+    padding: 54px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.menu{
+    font-family: $tipog-2;
+    &__lista{
+        margin-top:40px;
+        display: block;
+        list-style: none;
+    }
+    &__lista-item a{
+        text-decoration: none;
+    }
+    &__icono{
+        width: 24px;
+        height: 24px;
+        display: inline-block;
+        padding-right: 16px;
+    }
+}

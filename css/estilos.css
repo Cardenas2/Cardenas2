@@ -8,6 +8,35 @@ body {
   font-family: "Roboto Mono", monospace;
 }
 
+.contenedor-principal {
+  width: 100%;
+  display: flex;
+}
+
+header {
+  width: 300px;
+  background-color: #ffffff;
+  height: 100vh;
+  padding: 54px 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .menu {
   font-family: "Roboto", sans-serif;
+}
+.menu__lista {
+  margin-top: 40px;
+  display: block;
+  list-style: none;
+}
+.menu__lista-item a {
+  text-decoration: none;
+}
+.menu__icono {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  padding-right: 16px;
 }
