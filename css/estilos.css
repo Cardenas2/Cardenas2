@@ -13,6 +13,11 @@ body {
   display: flex;
 }
 
+.contenedor {
+  width: 95%;
+  margin: 0 auto;
+}
+
 header {
   width: 300px;
   background-color: #ffffff;
@@ -37,7 +42,8 @@ header {
   display: flex;
   font-family: "Roboto", sans-serif;
   align-items: center;
-  margin: 8px 0;
+  margin: 16px 0;
+  color: #141414;
 }
 .menu__icono {
   width: 24px;
