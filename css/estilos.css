@@ -108,6 +108,7 @@ main {
   height: 200px;
   border-radius: 25px;
   position: relative;
+  margin-bottom: 24px;
 }
 .caja-imagen__estacion img {
   width: 100%;
