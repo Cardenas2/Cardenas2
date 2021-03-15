@@ -42,7 +42,7 @@ header {
   width: 24px;
   height: 24px;
   display: inline-block;
-  padding-right: 16px;
+  margin-right: 16px;
 }
 
 .mi-cuenta {
@@ -52,4 +52,14 @@ header {
 }
 .mi-cuenta__hero {
   margin-right: 16px;
+}
+
+main {
+  width: 100%;
+  background-color: #ECEFF1;
+}
+
+.bienvenida {
+  background-color: #CFD8DC;
+  width: 100%;
 }
