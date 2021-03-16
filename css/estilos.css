@@ -129,7 +129,7 @@ main {
 }
 .caja-imagen__texto {
   position: absolute;
-  background-color: rgba(20, 20, 20, 0.6);
+  background: linear-gradient(0deg, #141414, transparent);
   display: flex;
   justify-content: center;
   align-items: center;

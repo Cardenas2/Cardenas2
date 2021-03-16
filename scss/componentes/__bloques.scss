@@ -48,7 +48,7 @@
     }
     &__texto{
         position: absolute;
-        background-color: rgba($color-neutro-11, $alpha: 0.6);
+        background: linear-gradient(0deg,$color-neutro-11,transparent);
         display: flex;
         justify-content: center;
         align-items: center;
