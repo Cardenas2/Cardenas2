@@ -3,11 +3,13 @@ main{
     background-color:$color-neutro-1-1;
 }
 .bienvenida{
-    background-color: #d9d9d9;
+    background-color:$color-1;
     font-family: $tipog-2;
 }
 .caj-Titulo-Principal{
     display: flex;
     margin-bottom: 17px;
-
+    &__icono{
+        padding-right: 10px;
+    }
 }

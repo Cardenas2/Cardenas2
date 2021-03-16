@@ -67,13 +67,16 @@ main {
 }
 
 .bienvenida {
-  background-color: #d9d9d9;
+  background-color: #d6b600;
   font-family: "Roboto", sans-serif;
 }
 
 .caj-Titulo-Principal {
   display: flex;
   margin-bottom: 17px;
+}
+.caj-Titulo-Principal__icono {
+  padding-right: 10px;
 }
 
 .formulario-busqueda {
@@ -120,10 +123,11 @@ main {
   width: 250px;
   height: 140px;
   border-radius: 25px;
-  margin-bottom: 120px;
+  margin-bottom: 100px;
 }
 .caja-imagen__estacion img {
   width: 100%;
+  height: auto;
   border-radius: 25px;
   position: relative;
 }
@@ -142,9 +146,14 @@ main {
   text-transform: uppercase;
   color: #ffffff;
 }
+.caja-imagen__icono {
+  padding-right: 5px;
+  width: 24px;
+  height: auto;
+}
 
 .saludo {
   font-size: 18px;
   font-weight: bold;
-  color: rgba(55, 71, 79, 0.7);
+  color: rgba(55, 71, 79, 0.9);
 }

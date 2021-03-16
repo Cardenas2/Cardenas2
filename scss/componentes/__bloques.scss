@@ -26,6 +26,7 @@
     font-weight: 700;
     padding-right: 20px;
     text-transform: uppercase;
+    
 }
 .form-seleccion-multiple{
     border:none;
@@ -40,9 +41,10 @@
     width: 250px;
     height: 140px;
     border-radius: 25px;
-    margin-bottom: 120px;
+    margin-bottom: 100px;
     &__estacion img{
         width: 100%;
+        height: auto;
         border-radius: 25px;
         position: relative;
     }
@@ -61,10 +63,16 @@
         text-transform: uppercase;
         color:$color-claro;
     }
+    &__icono{
+        padding-right: 5px;
+        width: 24px;
+        height: auto;
+
+    }
 }
 
 .saludo{
     font-size: 18px;
     font-weight: bold;
-    color:rgba($color-neutro-9, .7);
+    color:rgba($color-neutro-9, .9);
 }
