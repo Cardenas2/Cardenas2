@@ -1,16 +1,25 @@
 .formulario-busqueda{
-    padding-right: 16px;
-    &__info{
-        width: 300px;
+    width: 230px;
+    background-color: $color-claro;
+    margin:16px 0;
+    padding:4px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+    &__input{
         border:none;
-        margin: 12px 0;
-        padding: 0 12px;
-        border-radius: 12px;
-       
-
+        border-right: 1px solid $color-neutro-8;
+        text-align: left;
+        background-color: transparent;
+        padding-right: 8px;
+        opacity: .3;
+    }
+    &__icono{
+        border:none;
+        background-color: transparent;
+        text-align: right;
     }
 }
-
 .titular1{
     font-size:35px;
     color:$color-2;

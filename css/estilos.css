@@ -77,14 +77,26 @@ main {
 }
 
 .formulario-busqueda {
-  padding-right: 16px;
+  width: 230px;
+  background-color: #ffffff;
+  margin: 16px 0;
+  padding: 4px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 20px;
 }
-.formulario-busqueda__info {
-  width: 300px;
+.formulario-busqueda__input {
   border: none;
-  margin: 12px 0;
-  padding: 0 12px;
-  border-radius: 12px;
+  border-right: 1px solid #455A64;
+  text-align: left;
+  background-color: transparent;
+  padding-right: 8px;
+  opacity: 0.3;
+}
+.formulario-busqueda__icono {
+  border: none;
+  background-color: transparent;
+  text-align: right;
 }
 
 .titular1 {
