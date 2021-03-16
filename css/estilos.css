@@ -131,3 +131,9 @@ main {
   text-transform: uppercase;
   color: #ffffff;
 }
+
+.saludo {
+  font-size: 18px;
+  font-weight: bold;
+  color: #78909C;
+}
