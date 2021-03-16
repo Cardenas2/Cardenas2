@@ -56,6 +56,7 @@ header {
   display: flex;
   font-family: "Roboto", sans-serif;
   align-items: center;
+  margin-top: 150px;
 }
 .mi-cuenta__hero {
   margin-right: 16px;
