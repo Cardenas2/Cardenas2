@@ -23,6 +23,23 @@ h1,h2,h3,h4{
     font-family: $tipog-1;
     text-transform: uppercase;
 }
+.actividad__texto{
+    text-align: center;
+}
+.actividad__titulo{
+    display:flex;
+    text-align: center;
+
+}
 .titular2{
     font-size: 22px;
+}
+
+.actividades__indv {
+    width: 360px;
+    height: 260px;
+    border-radius: 6px;
+    background-color:$color-claro;
+    border:1px solid rgba($color-neutro-2, 0.5);
+    text-align: center;
 }
