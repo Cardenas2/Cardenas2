@@ -45,7 +45,7 @@
     &__estacion img{
         width: 100%;
         height: auto;
-        border-radius: 25px;
+        border-radius: 6px;
         position: relative;
     }
     &__texto{
@@ -58,8 +58,8 @@
         height:60px;
         left:0;
         bottom: -65px;
-        border-bottom-left-radius: 25px;
-        border-bottom-right-radius: 25px;
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
         text-transform: uppercase;
         color:$color-claro;
     }
