@@ -1,5 +1,14 @@
 .hero{
-    width: 100%;
-    height:450px;
-    background-color: darkcyan;
+    width: auto;
+    height:420px;
+    background-image: url(../img/hero-Estacion-guanako.jpg);
+    background-size: cover;
+    background-position:top right;
+    background-repeat: no-repeat;
+    &__parrafo{
+        font-family: $tipog-2;
+        font-size: 15px;
+        line-height: 21px;
+    }
+
 }
