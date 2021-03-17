@@ -24,3 +24,10 @@
     background: linear-gradient(0deg, rgba(245,245,245,1) 0%, rgba(245,245,245,1) 23%,
      rgba(245,245,245,0.2) 59%, rgba(245,245,245,0) 100%);
 }
+.actividad{
+    display: flex;
+    flex-direction: row;
+}
+.tituloSegundario{
+    display:flex;
+}

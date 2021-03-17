@@ -17,7 +17,12 @@ body{
     width: 95%;
     margin:0 auto;
 }
-h1,h2.h3,h4,p{
+h1,h2,h3,h4{
     padding:0;
     margin:0;
+    font-family: $tipog-1;
+    text-transform: uppercase;
+}
+.titular2{
+    font-size: 22px;
 }
