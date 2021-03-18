@@ -58,7 +58,7 @@ h1, h2, h3, h4 {
 
 .icono-candado {
   position: absolute;
-  background-color: rgba(38, 50, 56, 0.5);
+  background-color: rgba(38, 50, 56, 0.6);
   z-index: 30;
   border-radius: 30%;
   padding: 7px;
