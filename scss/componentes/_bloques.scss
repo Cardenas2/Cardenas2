@@ -77,3 +77,12 @@
     font-weight: bold;
     color:rgba($color-neutro-9, .9);
 }
+.texto-parrafo__titulo{
+    display: flex;
+    align-self: center;
+    margin-bottom: 6px;
+}
+.texto-parrafo__intro{
+    font-family: $tipog-2;
+    font-size: 15px;
+}

@@ -25,63 +25,38 @@ h1, h2, h3, h4 {
   text-transform: uppercase;
 }
 
-.actividad__texto {
-  text-align: center;
-}
-
-.actividad__titulo {
-  display: flex;
-  text-align: center;
-}
-
-.titular2 {
-  font-size: 22px;
-}
-
-.actividades__indv {
+.actividades-indv {
+  max-width: 360px;
   width: 360px;
   height: 260px;
-  border-radius: 6px;
   background-color: #ffffff;
-  border: 1px solid rgba(207, 216, 220, 0.5);
-  text-align: center;
+  border-radius: 6px;
+  border: 1px solid #B0BEC5;
   color: #141414;
 }
-
-.actividades__titulo3 {
-  display: flex;
+.actividades-indv :hover {
+  color: #141414;
+  text-decoration: none;
 }
 
-.actividades__parrafo {
-  font-family: "Roboto", sans-serif;
-  line-height: 21px;
-  width: 90%;
-  margin: 0 auto;
-  text-align: left;
-}
-
-.actividades__video {
+.imagen-item {
   width: 100%;
   height: 150px;
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
-  padding-bottom: 56, 25%;
-  overflow: hidden;
+  background-color: forestgreen;
   position: relative;
 }
-
-.actividades__video:hre iframe {
-  position: absolute;
+.imagen-item img {
   width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
+  height: 150px;
+  object-fit: cover;
+  object-position: top;
 }
 
-.candado {
+.icono-candado {
   position: absolute;
-  z-index: 100;
-  width: 200px;
+  background-color: rgba(38, 50, 56, 0.5);
+  z-index: 30;
+  border-radius: 50%;
 }
 
 header {
@@ -227,6 +202,17 @@ main {
   color: rgba(55, 71, 79, 0.9);
 }
 
+.texto-parrafo__titulo {
+  display: flex;
+  align-self: center;
+  margin-bottom: 6px;
+}
+
+.texto-parrafo__intro {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+
 .hero {
   width: auto;
   height: 500px;
@@ -251,11 +237,6 @@ main {
   top: 0;
   left: 0;
   background: linear-gradient(0deg, whitesmoke 0%, rgba(245, 245, 245, 0.812762605) 17%, rgba(245, 245, 245, 0.437412465) 43%, rgba(245, 245, 245, 0.1544992997) 67%, rgba(245, 245, 245, 0) 100%);
-}
-
-.actividad {
-  display: flex;
-  flex-direction: row;
 }
 
 .tituloSegundario {
