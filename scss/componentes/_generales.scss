@@ -25,13 +25,16 @@ h1,h2,h3,h4{
 }
 
 .actividades-indv{
-    max-width:360px;
-    width: 360px;
+    width: 280px;
     height:260px;
+    display: flex;
+    flex-direction: column;
     background-color:$color-claro;
     border-radius: 6px;
     border:1px solid $color-neutro-3;
     color:$color-neutro-11;
+    margin-right: 27px;
+    margin-bottom: 27px;
     :hover{
         color:$color-neutro-11;
         text-decoration: none;
@@ -56,13 +59,14 @@ h1,h2,h3,h4{
     position: absolute;
     background-color: rgba($color-neutro-10, .5);
     z-index: 30;
-    border-radius: 50%;  
+    border-radius: 50%; 
+    width: 35px; 
 }
 .icono-play{
     z-index: 30;
     position: absolute;
     margin-top:55px;
-    margin-left: 150px;
+    margin-left: 100px;
     opacity: .6;
     
 }
