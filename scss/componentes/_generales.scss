@@ -43,7 +43,7 @@ h1,h2,h3,h4{
 
 .imagen-item{
     width: 100%;
-    height: 150px;
+    height: 150px; 
     background-color: forestgreen;
     position: relative;
     img{
@@ -59,8 +59,8 @@ h1,h2,h3,h4{
     position: absolute;
     background-color: rgba($color-neutro-10, .6);
     z-index: 30;
-    border-radius:30%; 
-    padding:7px;
+    padding:8px 10px; 
+    border-radius:42%;
 } 
 .icono-play{
     z-index: 30;
