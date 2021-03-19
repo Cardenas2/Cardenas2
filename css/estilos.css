@@ -72,6 +72,19 @@ h1, h2, h3, h4 {
   opacity: 0.6;
 }
 
+.breadcrumb1 {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+}
+
+.breadcrumb1 span {
+  font-weight: bold;
+}
+
+.breadcrumb1__item {
+  color: #141414;
+}
+
 header {
   width: 300px;
   background-color: #ffffff;

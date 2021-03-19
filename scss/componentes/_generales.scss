@@ -70,3 +70,20 @@ h1,h2,h3,h4{
     opacity: .6;
     
 }
+
+.breadcrumb1{
+    font-size: 14px; 
+    font-family: $tipog-2;
+}
+.breadcrumb1 span{
+    font-weight: bold;
+}
+.breadcrumb1__item{
+    color:$color-neutro-11;
+
+}
+..breadcrumb1__item::before{
+    content: "/ ";
+    font-size: 14px;
+
+}
