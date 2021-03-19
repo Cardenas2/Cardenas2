@@ -72,6 +72,10 @@ h1, h2, h3, h4 {
   opacity: 0.6;
 }
 
+.texto-principal {
+  align-items: flex-end;
+}
+
 .breadcrumb1 {
   font-size: 14px;
   font-family: "Roboto", sans-serif;
@@ -83,6 +87,11 @@ h1, h2, h3, h4 {
 
 .breadcrumb1__item {
   color: #141414;
+}
+
+.breadcrumb1__item:after {
+  content: "/ ";
+  font-size: 14px;
 }
 
 header {

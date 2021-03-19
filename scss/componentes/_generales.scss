@@ -70,7 +70,9 @@ h1,h2,h3,h4{
     opacity: .6;
     
 }
-
+.texto-principal{
+    align-items: flex-end;
+}
 .breadcrumb1{
     font-size: 14px; 
     font-family: $tipog-2;
@@ -82,7 +84,7 @@ h1,h2,h3,h4{
     color:$color-neutro-11;
 
 }
-..breadcrumb1__item::before{
+.breadcrumb1__item:after{
     content: "/ ";
     font-size: 14px;
 
